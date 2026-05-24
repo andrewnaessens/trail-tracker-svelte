@@ -5,7 +5,9 @@ import { goto } from "$app/navigation";
 
 
 export const trailTrackerService = {
-  baseUrl: "http://localhost:3000",
+  // baseUrl: "http://localhost:3000",
+  baseUrl: "https://trail-tracker-web-app.onrender.com",
+
   // pass user object omitting user id
   async signup(user: Omit<User, '_id'>): Promise<boolean> {
     try {
