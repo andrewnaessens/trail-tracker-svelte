@@ -1,6 +1,5 @@
-<!-- src/lib/ui/LeafletMap.svelte -->
 <script lang="ts">
-  import "leaflet/dist/leaflet.css";
+  // import "leaflet/dist/leaflet.css";
   import { onMount } from "svelte";
   import type { Map as LeafletMapInstance, Control } from "leaflet";
   
